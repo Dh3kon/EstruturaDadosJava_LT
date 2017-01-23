@@ -1,4 +1,4 @@
-package com.estutura.pilha.exercicios;
+package com.estutura.pilha.teste;
 
 import com.estutura.pilha.Pilha;
 

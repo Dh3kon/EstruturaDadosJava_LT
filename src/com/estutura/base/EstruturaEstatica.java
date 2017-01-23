@@ -2,9 +2,10 @@ package com.estutura.base;
 
 public class EstruturaEstatica<T> {
 
-	private T[] elementos;
-	private int tamanho;
+	protected T[] elementos;
+	protected int tamanho;
 
+	@SuppressWarnings("unchecked")
 	public EstruturaEstatica(int capacidade) {
 		this.elementos = (T[]) new Object[capacidade];
 		this.tamanho = 0;
