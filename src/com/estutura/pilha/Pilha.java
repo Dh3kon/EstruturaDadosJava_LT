@@ -2,7 +2,7 @@ package com.estutura.pilha;
 
 import com.estutura.base.EstruturaEstatica;
 
-public class Pilha<T> extends EstruturaEstatica{
+public class Pilha<T> extends EstruturaEstatica<T>{
 
 	public Pilha() {
 		super();

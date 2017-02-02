@@ -1,0 +1,14 @@
+package com.estrutura.fila.teste;
+
+import com.estrutura.fila.Fila;
+
+public class Aula19 {
+
+	public static void main(String[] args) {
+		
+		Fila<Integer> fila = new Fila<>();
+		System.out.println(fila.tamanho());
+		System.out.println(fila.estaVazia());
+	}
+	
+}
